@@ -6,4 +6,6 @@ langchain-community
 bs4
 faiss-cpu
 langchain-groq
-
+transformers
+wikipedia
+arxiv
