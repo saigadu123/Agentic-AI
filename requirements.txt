@@ -9,3 +9,4 @@ langchain-groq
 transformers
 wikipedia
 arxiv
+langgraph
