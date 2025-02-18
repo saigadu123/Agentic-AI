@@ -10,3 +10,4 @@ transformers
 wikipedia
 arxiv
 langgraph
+langgraph-cli[inmem]
