@@ -10,6 +10,8 @@ from langchain_core.runnables import RunnableConfig
 import os
 from dotenv import load_dotenv
 
+# Run langgraph dev in terminal to debug the graph
+
 load_dotenv()
 
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
@@ -40,9 +42,13 @@ def make_alternative_graph():
     def add(a:float,b:float):
         """ Add two numbers"""
         return a+b
+    
+    def multiply(a:float,b:float):
+        """ Multiply two numbers"""
+        return a*b
 
-    tool_node = ToolNode([add])
-    model_with_tools = llm.bind_tools([add])
+    tool_node = ToolNode([add,multiply])
+    model_with_tools = llm.bind_tools([add,multiply])
     def call_model(state):
         return {"messages":[model_with_tools.invoke(state["messages"])]}
     
