@@ -14,3 +14,10 @@ langgraph-cli[inmem]
 agno
 openai
 duckduckgo-search
+pypdf
+tantivy
+pylance
+lancedb
+pandas
+
+

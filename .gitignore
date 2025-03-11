@@ -11,8 +11,11 @@ __pycache__/
 agent-venv/
 .env
 build/
+
+tmp/
 develop-eggs/
 dist/
+agenticvenv/
 downloads/
 eggs/
 .eggs/

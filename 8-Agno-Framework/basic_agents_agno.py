@@ -15,4 +15,4 @@ agent = Agent(
     markdown = True
 )
 
-agent.print_response("Tell me the recent sport news that you know",stream=True)
+agent.print_response("What is the india score in chamions trophy final match",stream=True)
