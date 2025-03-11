@@ -11,3 +11,6 @@ wikipedia
 arxiv
 langgraph
 langgraph-cli[inmem]
+agno
+openai
+duckduckgo-search
