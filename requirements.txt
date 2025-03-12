@@ -19,5 +19,8 @@ tantivy
 pylance
 lancedb
 pandas
+yfinance
+sqlalchemy
+fastapi[standard]
 
 
