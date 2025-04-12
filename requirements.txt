@@ -22,7 +22,6 @@ pandas
 yfinance
 sqlalchemy
 fastapi[standard]
-crewai
 crewai[tools]
 
 
